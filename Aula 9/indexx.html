@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 9 - Formulários</title>
+    <link rel="stylesheet" href="styles/geral.css">
+</head>
+<body>
+    <h1>FORMULÁRIO</h1>
+    <h3>cadastro</h3>
+    <form action="cadastrar.php" method="post">
+        
+        <label for="nome">Nome*</label>
+        <input type="text" id="nome" placeholder="Digite o seu nome">
+        
+       
+        <label for="senha">Senha*</label>
+        <input type="password" id="senha" placeholder="Digite a sua melhor senha!">
+        
+        
+        <label for="email">Digite o e-mail</label>
+        <input type="email" id="email" placeholder="Digite o seu email">
+        
+        <label for="idade">Digite a sua idade</label>
+        <input type="number" id="idade" step="1" min="1" max="10" placeholder="Idade">
+        
+        <label for="dataDeNascimento">Coloque a sua data de nascimento</label>
+        <input type="date" id="relogio">
+
+        <label for="dataDeNascimento">Coloque a hora do nascimento</label>
+        <input type="date" id="hora de nascimento">
+
+        <label for="foto">Coloque a sua cor favorita</label>
+        <input type="color" id="cor">
+
+        <label for="foto">Insira uma imagem de perfil</label>
+        <input type="file" id="foto">
+
+        <label for="sexo">Qual é o seu sexo?</label>
+        Homem<input type="radio" name="sexo" value="homem">
+        Mulher<input type="radio" name="sexo" value="mulher">
+        Não dizer<input type="radio" name="sexo" value="naoDizer">
+        
+        <input type="checkbox" id="mandaEmail">
+
+        <input type="radio" name="" id="">
+        
+        
+<select>
+        <label for="estado">Selecione o Estado onde mora</label>
+        <select id="estado"></select>
+        <option value="DF">Distrito Federal</option>
+        <option value="SP">São Paulo</option>
+        <option value="MG">Minas Gerais</option>
+        <option value="AC">Acre</option>
+        <option value="RJ">Rio de Janeiro</option>
+        <option value="ES">Espirito Santo</option>
+        <option value="MT">Mato Grosso</option>
+ </select>
+
+
+
+        <label for="feedback">Digite seu feedback</label>
+        <textarea id="feedback" placeholder="Digite seu feedback" cols="50" rows="1" maxlength="20" style="resize: none;"></textarea>
+
+        <button type="submit">CADASTRAR</button>
+        <button type="reset">REFAZER FORMULÁRIO</button>
+       
+    </form>
+</body>
+</html>
