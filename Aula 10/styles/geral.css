@@ -127,3 +127,18 @@ button:hover{
     font-weight: bold;
     transition: 0.5s;
 }
+#link{
+    display: inline;
+    justify-content: right;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    }
+   
+p{
+    color: rgba(44, 2, 92, 0.527);
+    text-align: right;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: small;
+    text-decoration: underline;
+    
+}
