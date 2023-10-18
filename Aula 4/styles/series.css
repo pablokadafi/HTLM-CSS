@@ -1,0 +1,115 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    }
+header{
+width: 100%;
+height: 40px;
+padding: 10px 0px;
+background-color: rgb(59, 22, 88);
+}
+#logo{
+    width: 40px;
+    height: 40px;
+    margin: 0px 20px;
+    background-color: black;
+    border-radius: 40px;
+    overflow: hidden;
+    float: left;
+    }
+ #logo img{
+        width: 100%;
+        height: 100%;
+    }
+nav{
+    width: auto;
+    height: 40px;
+    line-height: 40px;
+    float: right;
+    margin: 0px 20px
+}
+a{
+text-decoration: wavy;
+margin: 0px 6px;
+background-color: none;
+color: white;
+padding: 0px 15px;
+border-radius: 10px;
+}
+main{
+    width: 100%;
+    margin: 0px 0px;
+    background-color: rgb(40, 4, 65);
+    padding: 0px 0px;
+    }
+h1{
+text-align: center;
+color: rgb(247, 246, 246);
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+p{
+color: rgb(35, 4, 61);
+}
+#sectionSeries{
+    width: 100%;
+    background-color: rgb(89, 19, 110);
+    /* configuração padrão: topo, esquerda e em coluna */
+    display: flex; /* muda a maneira de mostrar no navegador  */
+    /* row - linha */
+    /* column - coluna */
+    /* reverse - inverso */
+    flex-direction: row; /*, muda a direção do flex box */
+    justify-content: space-around;/*, muda a orientação horizontal */
+    align-items: initial;/*, muda a orientação vertical */
+    flex-wrap: wrap;/*, evita distorção dos elementos */
+    gap: 20px; /*, gap é margem entre elementos */ 
+}
+.series{
+    width: 200px;
+    height: 300px;
+    margin: 20px;
+    background-color: rgb(242, 242, 242);
+    padding: 20px;
+    border-radius: 5px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    .item{
+        width: 200px;
+        height: 300px;
+        margin: 20px;
+        background-color: rgb(242, 242, 242);
+        padding: 20px;
+        border-radius: 5px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .itemImagem{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .itemImagem img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    .itemDescricao{
+        width: 100%;
+        height: 50%;
+    }
+    
+    .itemDescricao h3{
+        margin: 10px 0px;
+        color: rgb(126, 3, 174);
+    }
+    
+    .itemDescricao p{
+        color: gray;
+        margin: 20px 0px;
+    }
+    
+    .itemValor{
+        font-size: 14pt;
+        color: rgb(0, 104, 0);
+        font-weight: bold;
+    }

@@ -1,0 +1,67 @@
+@keyframes mudaCor{
+0%{background-color: red;}
+10%{background-color: blue;}
+20%{background-color: aqua;}
+30%{background-color: chartreuse;}
+40%{background-color: yellow;}
+50%{background-color: coral;}
+60%{background-color:blueviolet;
+width: 300px;
+position: sticky;
+left: 100px;
+}
+70%{background-color: darkorange;}
+80%{background-color: darkgreen;}
+90%{background-color: tan;}
+100%{background-color: orangered;}
+}
+@keyframes mudabackground{
+0%{
+background-image: url(../images/paisagem.webp);
+}
+50%{
+background: url(../images/paisagem\ 2.jpg);
+}
+100%{
+background-image: url(../images/paisagem\ 3.jpg);
+}
+}
+
+
+
+@font-face{
+    font-family: magnolia ;
+src: url(../fonts/magnolia_monogram/MAGNOLIA\ MONOGRAM.ttf);
+}
+@font-face{
+font-family: notosans ;
+src: url(../fonts/Noto_Sans/NotoSans-Black.ttf);
+font-weight: normal;
+}
+
+h3{
+font-family: magnolia;
+}
+
+*{
+margin: 0;
+padding: 0;
+font-family: notosans;
+font-weight: normal;
+}
+#caixaCor{
+width: 500px;
+height: 500px;
+background-color: red;
+animation-name: mudaCor;
+animation-duration: 5s;
+animation-iteration-count: infinite;
+}
+#caixaImagem{
+width: 500px;
+height: 500px;
+background-image: url(../images/paisagem.webp);
+background-size: cover;
+background-position: right;
+animation: mudabackground 10s infinite;
+}
