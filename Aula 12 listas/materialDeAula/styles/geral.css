@@ -1,0 +1,40 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.listas{
+    width: 500px;
+   
+    padding: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#viagem{
+    background-color: rgb(209, 189, 10);
+}
+#compras{
+    background-color: rgb(31, 116, 5);
+}
+#compras ul{
+    list-style-type: square;
+}
+#dicionario{
+    background-color: rgb(8, 20, 189);
+}
+#computadores{
+    background-color: rgb(112, 5, 76);
+}
+dt{
+    font-size: 15pt;
+    color: rgb(2, 1, 0);
+}
+dd{
+    color: rgb(175, 175, 175);
+    margin: 10px;
+}
+ul li{
+    margin: 5px 10px;
+
+}
+#sumario{
+    background-color: mediumaquamarine;
+}
