@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles/geral.css">
+    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width: 768px)">
+    <link rel="stylesheet" href="styles/landscape.css" media="screen and(orientation : landscape)"> <!--LANDSCAPE PAISAGEM OU DEITADO-->
+    <link rel="stylesheet" href="styles/portal.css" media="screen and (orientation : portrait)"></i><!--RETRATO OU EM PÉ-->
+
+</head>
+<body>
+    <div id="pagina">
+        <header>
+            <div id="logo">
+            <h1>Art Museum</h1>
+            </div>
+            <nav id="opcoesPc">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Galeria</a></li>
+                    <li><a href="#">Contato</a></li>
+                </ul>
+            </nav>
+            <div id="menuMobile" onclick="abrirOpcoes">
+            <img src="styles/imagens/menuIcon.svg" alt="">
+            </div>
+        </header>
+        <!--menu mobile-->
+        <main>
+            <nav id="opcoesMobile">
+                <ul>
+                    <li><a href="#">Elizabeth</a></li>
+    
+                </ul>
+            </nav>
+            <!--picture-muitos srcs-->
+            <picture>
+                <source srcset="styles/imagens/universo.avif" media="screen and (max-width: 768px)">
+            </picture>
+            <img  src="styles/imagens/images (1)/elizabeth.jpg" alt="Universo">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                 Libero nostrum ullam deserunt tempore earum, aperiam quidem minima repellat aliquam, eius nobis provident, esse praesentium in vel ducimus nesciunt officia labore.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magnam! Assumenda pariatur exercitationem aspernatur libero doloribus, cupiditate voluptatibus, deleniti nisi sed ipsam, nam magni. Aspernatur aliquam possimus excepturi officiis commodi!
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam magnam placeat accusantium veritatis dignissimos. Nemo, numquam. Veritatis accusamus quaerat ducimus dicta. Placeat eius, voluptatem dolorem esse velit ex itaque cum.</p>
+        </main>
+        <footer></footer>
+    </div>
+    <script>
+       function abrirOpcoes(){
+            if (opcoesMobile.style.display == "none"){
+                opcoesMobile.style.display = "flex"
+            }else{
+                opcoesMobile.style.display = "none"
+            }
+        }
+    </script>
+    
+</body>
+</html>
