@@ -1,61 +1,64 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
     <link rel="stylesheet" href="styles/geral.css">
-    <link rel="stylesheet" href="styles/@media.css" media="screen and (max-width: 768px)">
-    <link rel="stylesheet" href="styles/landscape.css" media="screen and(orientation : landscape)"> <!--LANDSCAPE PAISAGEM OU DEITADO-->
-    <link rel="stylesheet" href="styles/portal.css" media="screen and (orientation : portrait)"></i><!--RETRATO OU EM PÉ-->
-
+    <title>Document</title>
 </head>
 <body>
     <div id="pagina">
         <header>
-            <div id="logo">
-            <h1>Art Museum</h1>
-            </div>
-            <nav id="opcoesPc">
+            <h2>ArtMuseum</h2>
+            <nav id="meuPc">
                 <ul>
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Galeria</a></li>
-                    <li><a href="#">Contato</a></li>
+                    <li>
+                        <a href="">Home</a>
+                        <a href="">Galeria</a>
+                        <a href="">Contato</a>
+                    </li>
                 </ul>
             </nav>
-            <div id="menuMobile" onclick="abrirOpcoes">
-            <img src="styles/imagens/menuIcon.svg" alt="">
-            </div>
         </header>
-        <!--menu mobile-->
         <main>
-            <nav id="opcoesMobile">
-                <ul>
-                    <li><a href="#">Elizabeth</a></li>
-    
-                </ul>
-            </nav>
-            <!--picture-muitos srcs-->
-            <picture>
-                <source srcset="styles/imagens/universo.avif" media="screen and (max-width: 768px)">
-            </picture>
-            <img  src="styles/imagens/images (1)/elizabeth.jpg" alt="Universo">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.
-                 Libero nostrum ullam deserunt tempore earum, aperiam quidem minima repellat aliquam, eius nobis provident, esse praesentium in vel ducimus nesciunt officia labore.
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, magnam! Assumenda pariatur exercitationem aspernatur libero doloribus, cupiditate voluptatibus, deleniti nisi sed ipsam, nam magni. Aspernatur aliquam possimus excepturi officiis commodi!
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam magnam placeat accusantium veritatis dignissimos. Nemo, numquam. Veritatis accusamus quaerat ducimus dicta. Placeat eius, voluptatem dolorem esse velit ex itaque cum.</p>
+            <h2>DESTAQUES DA SEMANA</h2>
+            <hr>
+            <div id="destaque">
+                <h3>Elizabeth</h5>
+                <img class="img" src="styles/imagens/elizabeth.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita, hic possimus doloribus, id unde ad reiciendis eum mollitia dolor quis natus exercitationem dicta inventore quidem neque eos voluptate voluptatibus quaerat.
+                    <button type="button">Ver sobre</button>
+                </p>
+            </div>
+            <p id="textoPagina">Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi libero esse veniam aliquam ea, soluta impedit reprehenderit fuga veritatis, natus iure. Saepe accusantium est amet vitae voluptate ad accusamus adipisci.
+                <h2>ARTES</h2>
+                <hr>
+
+                <section id="galeria">
+                    <div class="post">
+                        <h5>TITULO DA ARTE</h5>
+                        <img class="img" src="styles/imagens/arte1.jpg" alt="">
+                        <p>deescrição de arte</p>
+                        <button type="button">Ver mais</button>
+                    </div>
+                    <div class="post">
+                        <h5>TITULO DA ARTE</h5>
+                        <img class="img" src="styles/imagens/arte2.jpg" alt="">
+                        <p>deescrição de arte</p>
+                        <button type="button">Ver mais</button>
+                    </div>
+                    <div class="post">
+                        <h5>TITULO DA ARTE</h5>
+                        <img class="img" src="styles/imagens/arte3.jpg" alt="">
+                        <p>deescrição de arte</p>
+                        <button type="button">Ver mais</button>
+                    </div>
+                </section>
+            </p>
         </main>
         <footer></footer>
     </div>
-    <script>
-       function abrirOpcoes(){
-            if (opcoesMobile.style.display == "none"){
-                opcoesMobile.style.display = "flex"
-            }else{
-                opcoesMobile.style.display = "none"
-            }
-        }
-    </script>
     
 </body>
 </html>

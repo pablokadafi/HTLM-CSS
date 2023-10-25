@@ -1,101 +1,97 @@
 *{
-    padding: 0%;
     margin: 0%;
-}
-#pagina{
-    width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    
-}
-main{
-    width: 50%;
-    padding: 20px;
-    margin: 20px 0px;
-    background-color: white;
-    border-style:groove ;
-    
-}
-
-header, footer{
-    width: 100%;
-    height: 60px;
-    background-color: rgb(3, 3, 3);
-    display: flex;
-    justify-content: space-between;
-}
-#logo{
-    height: 100%;
+    padding: 0%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
 }
-#logo img{
-    height: 100%;
-    width: 100%;
-}
-h1{
-    color: white;
-}
-nav, ul{
-    height: 100%;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-    list-style: none;
-}
-a{
-    text-decoration: none;
-    color: white;
-    font-size: 16pt;
+h1, h2,h3,h4,h5,h6{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-main img{
-    width: 500px;
-    
-   
-    
-   
-    
-}
-
-p{
-    color: rgb(0, 0, 0)
-}
-
- @media screen and (max-width : 768px){
-    body{
-        background-color: red;
-    }
-
-}
-@media screen and (min-width:800px){
-    body{
-        background-color: white;
-    }
-}
-@media print{
-    main{
-color: red;
-    }
-}
-#menuMobile{
-    height: 80%;
-    padding: 6px;
-    background-color:rgb(84, 5, 104);
-    display: flex;
-    flex-direction: column;
-}
-
-#opcoesMobile ul{
+#pagina, header,footer,main,#galeria{
     width: 100%;
-    padding: 10px 0px;
-    background-color: rgb(255, 254, 255);
+    display: flex;
+}
+#pagina{
+    flex-direction: column;
+    align-items: center;
+}
+/*cabecalho*/
+header{
+    height: 80px;
+    background-color: #2a2b2a;
+    align-items: center;
+    justify-content: space-around;
+    color: white;
+}
+nav{
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+/* fim cabecalho*/
+
+/* conteudo*/
+
+main{
+    padding: 20px 0px;
+    flex-direction: column;
+    align-items: center;
+
+}
+hr{
+    width: 40%;
+    border: 2px solid #f51248;
+}
+#destaque{
+    width: 50%;
+    padding: 20px;
+    margin: 10px 0px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-}
-#opcoesMobile ul li:hover{
-    background-color: rgb(97, 49, 129);
+    align-items: center;
+    border: 1px solid gray;
     border-radius: 10px;
-    transition: 1s;
+}
+#destaque p{
+    color: gray;
+}
+button{
+    width: 80px;
+    padding: 5px;
+    background-color: #f51248;
+    border: none;
+    color: white;
+    border-radius: 5px;
+}
+.img{
+    width: 70%;
+    
+
+}
+#galeria{
+    
+}
+.post{
+    width: 200px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #f51248;
+}
+footer{
+    height: 60px;
+    background-color: #2a2b2a;
 }
