@@ -2,6 +2,12 @@
     padding: 0%;
     margin: 0%;
 }
+/*#pagina{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: ;
+}*/
 body {
    width: 100%;
    margin: 0px;
@@ -49,6 +55,7 @@ nav li{
     display: flex;
     gap: 20px;
     justify-content: right;
+    
 
 }
 #list{
@@ -59,53 +66,51 @@ nav li{
     justify-content: right;
 }
 main{
+    text-align: center;
     width: 100%;
-    height: 1000px;
-    display: flexbox;
-    align-items: center;
-    flex-direction: column;
-    padding: 20px;
-    font-size: 15px;
+    margin: 0px 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
     
 .flex-container{
     width:300px;
-    height:100%px;
+    height:100px;
     display: flex;
-    flex-direction: column;
-   justify-content: center;
+    justify-content: center;
     background-color: none;
 }
 h2{
     font-size: 20pt;
     text-align: center;
-    color: white;
+    color: rgb(0, 0, 0);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 #text{
-    color: white;
+    color: black;
 }
-form{
-    justify-content: center;
-   border-style: ridge;
-    padding: 20px;
-    font-size: 15px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    
+.formlogin{
+   display: inline-block;
+   width: 300px;
+   font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 input{
-    border-radius: 5px;;
-    border-style: solid;
+    display: block;
+    margin: 0 0 20px;
+    padding: 10px 25px;
+    width: 100%;
+    border-radius: 5px;
+    border-color: #000000;
 }
 #caixa{
     height: 30px;
     border-radius: groove;
+
     background-color: rgb(67, 202, 202);
 }
 button{
     height: 35px;
     background-color: #11c9cf;
+    border-color: #000000;
     color: #000000;
     padding: 10px 20px;
     border: none;
@@ -113,7 +118,39 @@ button{
     cursor: pointer;
     justify-content: center;
 }
+.link, p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    border-color: #000000;
+    color: #000000;
+    padding: 10px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    
+}
+input:hover{
+    background-color: rgb(30, 156, 165);
+    transition: 0.3s;
+}
 
+
+
+input:focus{
+    width: 380px;
+    height: 40px;
+    transition: 1s;
+    background-color: rgb(21, 4, 44);
+    color: white;
+    animation: border 1.5s infinite;
+}
+input: li{
+    
+    color: white;
+    animation: :fullscreen;
+    
+}
 
 
 
