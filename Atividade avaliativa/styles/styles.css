@@ -132,9 +132,22 @@ button{
     cursor: pointer;
     justify-content: center;
     }
+    #button2{
+        width: 200px;
+        height: 35px;
+        background-color: #11c9cf;
+        border-color: #000000;
+        color: #000000;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        justify-content: center;
+
+    }
 .link, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: white;
+    background-color:#0c8185;
     border-color: #000000;
     color: #000000;
     padding: 10px 10px;
