@@ -71,13 +71,21 @@ button{
     border: none;
     color: white;
     border-radius: 5px;
+    
 }
 .img{
-    width: 70%;
+    width: 80%;
     
 
 }
 #galeria{
+    width: 200px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
     
 }
 .post{

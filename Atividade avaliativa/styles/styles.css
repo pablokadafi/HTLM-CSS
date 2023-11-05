@@ -41,7 +41,9 @@ header{
     flex-direction: row-reverse;
 }
 ul{
+ display: flex;
  justify-content: left;   
+ 
 }
 
 nav{
@@ -82,11 +84,12 @@ main{
 h2{
     font-size: 20pt;
     text-align: center;
+    text-decoration: none;
     color: rgb(0, 0, 0);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 #text{
-    color: black;
+    color: rgb(252, 251, 251);
 }
 .formlogin{
    display: inline-block;
@@ -102,9 +105,8 @@ input{
     border-color: #000000;
 }
 #caixa{
-    height: 30px;
+    height: 20px;
     border-radius: groove;
-
     background-color: rgb(67, 202, 202);
 }
 button{
@@ -118,6 +120,18 @@ button{
     cursor: pointer;
     justify-content: center;
 }
+#cad{
+    width: 100px;
+    height: 35px;
+    background-color: #11c9cf;
+    border-color: #000000;
+    color: #000000;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    justify-content: center;
+    }
 .link, p{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     background-color: white;
@@ -129,6 +143,12 @@ button{
     cursor: pointer;
     justify-content: center;
     
+}
+#esq{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: none;
+    color: darkseagreen;
+    border-color: #11c9cf;
 }
 input:hover{
     background-color: rgb(30, 156, 165);
@@ -145,10 +165,14 @@ input:focus{
     color: white;
     animation: border 1.5s infinite;
 }
-input: li{
+#list:hover{
     
+    background-color: rgba(134, 131, 131, 0.877);
+    color: #fff;
+    transition: background-color 1.5s ease;
     color: white;
-    animation: :fullscreen;
+    animation:both;
+    border-radius: 5px;
     
 }
 
