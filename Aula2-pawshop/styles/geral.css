@@ -1,0 +1,11 @@
+:Root{
+    --azul : #6EB3D0;
+   --verde: #B6D7A8;
+   --rosa : #F7B6D2;
+    --laranja : #F4A623;
+    --reto : #000000;
+    --branco : #FFFFFF;
+}
+header, footer{
+    background-color: var(--azul);
+}
