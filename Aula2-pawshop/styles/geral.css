@@ -1,11 +1,31 @@
 :Root{
     --azul : #6EB3D0;
-   --verde: #B6D7A8;
+   --verde: #216902;
    --rosa : #F7B6D2;
     --laranja : #F4A623;
-    --reto : #000000;
+    --preto : #000000;
     --branco : #FFFFFF;
 }
 header, footer{
     background-color: var(--azul);
+}
+.card, .card img{
+    border-radius: 0%;
+}
+.card{
+    padding: 1rem;
+    border: var(--preto) 2px solid;
+}
+.card button{
+    background-color: var(--rosa);
+    color: var(--preto);
+    border: none;
+    border-radius: 0%;
+}
+.card button:hover{
+    background-color: red;
+}
+.card button:active{
+    background-color: var(--branco)!important;
+    color: var(--rosa)!important;
 }
