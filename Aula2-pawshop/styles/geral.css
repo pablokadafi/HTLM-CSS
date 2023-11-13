@@ -29,3 +29,6 @@ header, footer{
     background-color: var(--branco)!important;
     color: var(--rosa)!important;
 }
+form input{
+    border: 1px solid black!important;
+}
