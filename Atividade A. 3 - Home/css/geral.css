@@ -1,0 +1,47 @@
+:root{
+    --preto: #000000;
+    --vermelho: #ba2d2d;
+    --prata: #F8F8FF;
+    --laranjaClaro: #f2861b;
+    --laranjaTranparente:#ff800093;
+    --amarelo: #c7c730;
+    --branco: #ffffff;
+}
+header, footer{
+    background-color: var(--preto);
+    
+
+}
+body{
+    background-color:var(--prata)!important;
+}
+.nav-link{
+    color: var(--branco)!important;
+}
+#bannerSection{
+    height: 700px;
+    background-image: url(../styles/images/banner.jpg);
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+}
+h1, h2{
+    font-family: 'Times New Roman', Times, serif;
+    color: var(--branco)
+}
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 15pt;
+    text-decoration: dotted;
+
+}
+#mensagemBanner{
+    width: 600px;
+    height: 600px;
+    padding: 2rem;
+    background-color: var(--branco);
+}
+#img1{
+    height: 100px;
+
+}

@@ -1,0 +1,8 @@
+#colors{
+    background-color: #000000;
+    background-color: #ba2d2d;
+    background-color: #F8F8FF;
+    background-color: #f2861b;
+    background-color: #c7c730;
+    
+}
